@@ -112,7 +112,7 @@ h3 {
 
 #header {
     height: 800px;
-    background-image: url(keyboard2.jpg);
+    background-image: url(./images/keyboard2.jpg);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -165,7 +165,7 @@ a:hover {
 }
 
 #cesoir {
-    background-image: url(cesoir2.png);
+    background-image: url(./images/cesoir2.png);
     width: 400px; 
     height: 283px;
     /*display: flex;
@@ -174,7 +174,7 @@ a:hover {
 }
 
 #vegokoket {
-    background-image: url(vegokoket2.png);
+    background-image: url(./images/vegokoket2.png);
     width: 400px; 
     height: 283px;
     display: flex;
@@ -197,7 +197,7 @@ a:hover {
 }
 
 #storSkogen {
-    background-image: url(storskogen2.png);
+    background-image: url(./images/storskogen2.png);
     width: 400px;
     height: 283px;
     display: flex;
@@ -207,7 +207,7 @@ a:hover {
 }
 
 #vrink {
-    background-image: url(vrink2.png);
+    background-image: url(./images/vrink2.png);
     width: 400px;
     height: 283px;
     display: flex;
@@ -217,7 +217,7 @@ a:hover {
 }
 
 #todo {
-    background-image: url(todo2.png);
+    background-image: url(./images/todo2.png);
     width: 400px;
     height: 283px;
     display: flex;
