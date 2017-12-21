@@ -1,0 +1,256 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(to right, #E6E4E4 , white);
+}
+
+h1 {
+    /*text-transform: uppercase;*/
+    font-family: 'slabo_27pxregular', 'Times New Roman';
+    font-weight: normal;
+    color: white;
+    font-size: 58px;
+    letter-spacing: 15px;
+    text-shadow: 1px 1px white;
+}
+
+a {
+    text-decoration: none;
+    /*color: white;
+    font-family: Helvetica, sans-serif*/
+}
+
+
+#meny {
+    height: 250px;
+    background-color: #302E2E;
+    color: #FFF;
+    text-transform: uppercase;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.menyInnehåll {
+    width: 100%;
+}
+
+#content {
+    width: 960px;
+    margin: auto;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.vadJagKan {
+    font-family: 'Yantramanav';
+    font-size: 20px;
+    text-align: center;
+
+}
+
+#kompetenser {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Yantramanav';
+    font-weight: normal;
+    font-size: 14px;
+}
+
+#pil {
+    opacity: 0.8;
+    margin: 5px;
+}
+
+.sträck {
+    height: 100px;
+    width: 1px;
+    background-color: #A19D9D;
+    opacity: 0.2;
+    border-radius: 50%;
+}
+
+.bildPåMig {
+    /*float:left;*/
+    border-radius: 50%;
+}
+
+.textOmMig {
+    padding-left: 70px;
+    max-width: 560px;
+    /*float:left;*/
+}
+
+.omMig {
+    line-height: 200%;
+    color: black;
+}
+
+h2 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 38px;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+/*p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 200%;
+    
+}*/
+
+
+#header {
+    height: 800px;
+    background-image: url(keyboard2.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a:hover {
+    opacity: 0.6;
+}
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 960px;
+    margin: auto;
+}
+
+.minaProjekt {
+    float: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 960px;
+    margin: 100px auto;
+    
+}
+
+#footer {
+    height: 250px;
+    background-color: #302E2E;
+    color: #FFF;
+    text-transform: uppercase;
+    width: 100%;
+    font-family: 'Yantramanav';
+    font-weight: normal;
+    font-size: 14px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top:80px;
+}
+
+
+.bildProjekt:hover {
+    opacity: 0.5;
+}
+
+.bildProjekt {
+    margin: 20px;
+}
+
+#cesoir {
+    background-image: url(cesoir2.png);
+    width: 400px; 
+    height: 283px;
+    /*display: flex;
+    align-items: flex-end;*/
+    border-radius: 1%;
+}
+
+#vegokoket {
+    background-image: url(vegokoket2.png);
+    width: 400px; 
+    height: 283px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1%;
+    
+
+}
+
+#cesoirText, #vegokoketText, #vrinkText, #storSkogenText, #todoText {
+    color: black;
+    font-size: 14px;
+    font-family: 'slabo_27pxregular', 'Times New Roman';
+    /*background:#302E2E;*/
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    height: 100px;
+}
+
+#storSkogen {
+    background-image: url(storskogen2.png);
+    width: 400px;
+    height: 283px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1%;
+}
+
+#vrink {
+    background-image: url(vrink2.png);
+    width: 400px;
+    height: 283px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1%;
+}
+
+#todo {
+    background-image: url(todo2.png);
+    width: 400px;
+    height: 283px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1%;
+}
+
+
+#länk1 , #länk2 {
+    color: #FFF;
+    font-size: 42px;
+    padding: 10px;
+}
+
+.rubrik {
+    font-family: 'slabo_27pxregular', 'Times New Roman';
+    font-size: 20px;
+}
+
+.portfolio {
+    text-align: center;
+    font-family: 'slabo_27pxregular', 'Times New Roman';
+    font-size: 42px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.läst:hover {
+color: lightgray;
+font-size: 16px;
+}
+
+.länk {
+    color: white;
+}
