@@ -22,7 +22,7 @@ a {
 
 
 #meny {
-    height: 250px;
+    height: 300px;
     background-color: #302E2E;
     color: #FFF;
     text-transform: uppercase;
@@ -38,7 +38,7 @@ a {
 #content {
     width: 960px;
     margin: auto;
-    height: 400px;
+    height: 600px;
     display: flex;
     align-items: center;
 }
@@ -74,14 +74,12 @@ a {
 }
 
 .bildPåMig {
-    /*float:left;*/
     border-radius: 50%;
 }
 
 .textOmMig {
     padding-left: 70px;
     max-width: 560px;
-    /*float:left;*/
 }
 
 .omMig {
@@ -131,7 +129,6 @@ a:hover {
 }
 
 .minaProjekt {
-    float: none;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -141,7 +138,7 @@ a:hover {
 }
 
 #footer {
-    height: 250px;
+    height: 300px;
     background-color: #302E2E;
     color: #FFF;
     text-transform: uppercase;
@@ -153,6 +150,7 @@ a:hover {
     align-items: center;
     justify-content: space-around;
     margin-top:80px;
+
 }
 
 
@@ -185,7 +183,7 @@ a:hover {
 
 }
 
-#cesoirText, #vegokoketText, #vrinkText, #storSkogenText, #todoText {
+#cesoirText, #vegokoketText, #vrinkText, #storSkogenText, #todoText, #webshopText {
     color: black;
     font-size: 14px;
     font-family: 'slabo_27pxregular', 'Times New Roman';
@@ -226,6 +224,16 @@ a:hover {
     border-radius: 1%;
 }
 
+#webshop {
+    background-image: url(./images/webshop.png);
+    width: 400px;
+    height: 283px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1%;
+    background-size: cover;
+}
 
 #länk1 , #länk2 {
     color: #FFF;
@@ -238,12 +246,12 @@ a:hover {
     font-size: 20px;
 }
 
-.portfolio {
-    text-align: center;
+#portfolio {
+    /*text-align: center;
     font-family: 'slabo_27pxregular', 'Times New Roman';
-    font-size: 42px;
-    margin-top: 80px;
-    margin-bottom: 60px;
+    font-size: 42px;*/
+    /*margin-top: 80px;
+    margin-bottom: 60px;*/
 }
 
 .läst:hover {
@@ -252,5 +260,151 @@ font-size: 16px;
 }
 
 .länk {
-    color: white;
+   color: white;
+}
+
+.kontakta {
+    color: black;
+    font-weight: bold;
+}
+
+.minalänkar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 500px;
+}
+
+.portfolioRubrik {
+    font-size: 24px;
+    font-family: 'slabo_27pxregular', 'Times New Roman';
+    text-align: center;
+}
+
+@media all and (max-width: 800px) {
+    h1 {
+        font-size: 38px;
+        letter-spacing: 7px;
+    }
+
+    #header {
+        width: 100%;
+        height: 225px;
+        background-image: url(./images/keyboardmobil.jpg);
+    }
+
+    #content {
+        width: 100%;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .textOmMig {
+        padding-left: 0px;
+        max-width: 325px;        
+    }
+
+    .bildPåMig {
+        border-radius: 50%;
+        width: 200px;
+        margin: 10px;
+    }
+
+    .row {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #cesoir, #webshop, #vrink, #todo, #storSkogen, #vegokoket {
+        width: 300px; 
+        height: 283px;
+    }
+
+    .bildProjekt {
+        margin: 0px;
+    }
+    .rad {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 465px;
+        align-items: center;
+    }
+
+    #cesoirText, #vegokoketText, #vrinkText, #storSkogenText, #todoText, #webshopText {
+        color: black;
+        font-size: 14px;
+        font-family: 'slabo_27pxregular', 'Times New Roman';
+        /*background:#302E2E;*/
+        height: 100px;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        }
+
+    #portfolio {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: white;
+        width: 100%;
+        height: auto;
+        background-attachment: fixed;
+    }
+
+    #footer {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #wrapper{
+        width: 100%;
+    }
+
+    #länk1, #länk2, {
+        font-size: 36px;
+        margin: 5px;
+    }
+    
+    .länkar {
+        flex-direction: column;
+    }
+
+    #kompetenser {
+        display: flex;
+        height: 210px;
+        flex-direction: column;
+        width: 100%;
+        margin-top:0px;
+        padding-bottom: 20px;    }
+    
+    .sträck {
+        height: 0px;
+        width: 0px;
+    }
+    
+    #meny {
+        height: 320px;
+    }
+    
+    .minalänkar {
+        display: flex;
+        flex-direction: column;
+        width: 80px;
+    }
+
+    #footer {
+    justify-content: space-between;
+    padding-left: 15px;
+    height: 200px;
+    margin-top: 0px;
+    }
 }

@@ -23,17 +23,7 @@ var TxtRotate = function(el, toRotate, period) {
   
     var that = this;
     var delta = 100 - Math.random() * 100;
-  /*
-    if (this.isDeleting) { delta /= 2; }
-  
-    if (!this.isDeleting && this.txt === fullTxt) {
-      delta = this.period;
-      this.isDeleting = true;
-    } else if (this.isDeleting && this.txt === '') {
-      this.isDeleting = false;
-      this.loopNum++;
-      delta = 500;
-    }*/
+
   
     setTimeout(function() {
       that.tick();
@@ -54,6 +44,7 @@ var TxtRotate = function(el, toRotate, period) {
 
 
   $(document).ready(function(){
+
 
   //MOUSEOVER AND MOUSEOUT CESOIR
   document.getElementById("cesoir").onmouseover = function(){mouseOverCesoir()};
@@ -103,6 +94,7 @@ document.getElementById("storSkogenText").innerHTML = "";
 }
 
 
+
 //MOUSEOVER AND MOUSEOUT VRINK
 
 
@@ -134,6 +126,22 @@ document.getElementById("todoText").innerHTML = "<p class='rubrik'>TODO</p> " + 
 function mouseOutTodo() {
 
 document.getElementById("todoText").innerHTML = "";
+}
+
+//MOUSEOVER AND MOUSEOUT WEBSHOP
+
+
+document.getElementById("webshop").onmouseover = function(){mouseOverWebshop()};
+document.getElementById("webshop").onmouseout = function(){mouseOutWebshop()};
+
+function mouseOverWebshop() {
+document.getElementById("webshopText").innerHTML = "<p class='rubrik'>H.O.M.E.</p> " +  "Mitt senaste arbete, en webshop för heminredning. Med funktioner så som: logga in, bli medlem, lägg i varukorg, lägg order. Finns även en adminsida där man kan se lagda ordrar och kundlista. ";
+
+}
+
+function mouseOutWebshop() {
+
+document.getElementById("webshopText").innerHTML = "";
 }
 
 

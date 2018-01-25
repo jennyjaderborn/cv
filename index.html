@@ -1,8 +1,22 @@
 <!DOCTYPE html>
 <html>
     <head>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113059596-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-113059596-1');
+</script>
+
+
+
+
     <link rel="stylesheet" type="text/css" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:100|Yantramanav:100" rel="stylesheet">
@@ -23,27 +37,27 @@
                       </h1>
 
         </div>
-           
+
 
         <div id="content">
             <img class="bildPåMig" src="./images/bildjenny2.jpg">
             <div class="textOmMig">
 
             <h3>Studerar webbutveckling med inrikting e-handel vid Medieinstiutet - Göteborg</h2>
-                <p class="omMig">Mitt namn är Jenny och jag är en 23-årig webbutvecklare(in progress..) med ett stort 
+                <p class="omMig">Mitt namn är Jenny och jag är en 23-årig blivande webbutvecklare med ett stort 
                     intresse för programmering. Jag har alltid gillat att titta runt på hemsidor och funderat
-                    över design, utformning och funktioner. Det roligaste är än så länge JavaScript. Med mitt tålamod och glada
+                    över design, utformning och funktioner. Därför valde jag denna tvååriga utbildning på Medieinstutet
+                    med e-handel som inriktning.<br/>
+                    Det roligaste enligt mig är än så länge JavaScript. Med mitt tålamod och glada
                     humör tar jag gärna emot nya utmaningar.  <br/> 
-                    Läs mer om min utbildning <a class="omMig" style="font-weight: bold;" href="#">här</a>
+                    Läs mer om min utbildning <a class="omMig" style="font-weight: bold;" target="_blank" href="http://medieinstitutet.se/webbutvecklare-ehandel/">här</a>
                     <br/>
-                    Kontakta mig gärna!
+                    <a class="kontakta" href="#footer">Kontakta</a> mig gärna!
                 </p>
             
         </div>
 
     </div>
-
-            <div style="clear:both;"></div>
 
         
 
@@ -58,8 +72,6 @@
                         <div class="sträck"></div>
                         <p class="läst">JavaScript/jquery</p>
                         <div class="sträck"></div>
-                        <!--<p>Jquery</p>
-                        <div class="sträck"></div>-->
                         <p class="läst">PHP(läses vår 2018)</p>
                         <div class="sträck"></div>
                         <p class="läst">MySQL(läses vår 2018)</p>
@@ -67,31 +79,36 @@
             </div>
             </div>
 
-            <div class="portfolio">Portfolio</div>
+            <div id="portfolio"> <p class="portfolioRubrik">Portfolio</p>
 
             <div class="row">
 
-                    <div class="rad"><a class="bildLänk" href="#"><div class="bildProjekt" id="cesoir"></div></a>
+                    <div class="rad">
+                            <a class="bildLänk" target="_blank" href="http://jennyjaderborn.wieg17.se/webshop/"><div class="bildProjekt" id="webshop"></div></a>
+                            <div id="webshopText"></div>
+                        </div>
+
+                    <div class="rad">
+                        <a class="bildLänk" target="_blank" href="http://jennyjaderborn.wieg17.se/cesoir/"><div class="bildProjekt" id="cesoir"></div></a>
                     <p id="cesoirText"></p>
                 </div>
-                <div class="rad">
-                    <a class="bildLänk" href="#"><div class="bildProjekt" id="vegokoket"></div></a>
-                    <p id="vegokoketText"></p>
-                </div>
+                
             </div>
 
 
             <div class="row">
+
+                    <div class="rad">
+                            <a class="bildLänk" target="_blank" href="http://jennyjaderborn.wieg17.se/Vegokoket/"><div class="bildProjekt" id="vegokoket"></div></a>
+                            <p id="vegokoketText"></p>
+                        </div>
                    
                 <div class="rad">
-                    <a class="bildLänk" href="#"><div class="bildProjekt" id="vrink"></div></a>
+                    <a class="bildLänk" target="_blank" href="http://jennyjaderborn.wieg17.se/vrink/"><div class="bildProjekt" id="vrink"></div></a>
                     <p id="vrinkText"></p>
                 </div>
 
-                <div class="rad">
-                    <a class="bildLänk" href="#"><div class="bildProjekt" id="storSkogen"></div></a>
-                    <p id="storSkogenText"></p>
-                </div>
+                
 
                 </div>
 
@@ -99,26 +116,32 @@
                 <div class="row">
                         
                      <div class="rad">
-                         <a class="bildLänk" href="#"><div class="bildProjekt" id="todo"></div></a>
+                         <a class="bildLänk" target="_blank" href="http://jennyjaderborn.wieg17.se/todo/"><div class="bildProjekt" id="todo"></div></a>
                          <p id="todoText"></p>
                      </div>
-     
-                 </div>
-                      
+
+                     <div class="rad">
+                            <a class="bildLänk" target="_blank" href="http://jennyjaderborn.wieg17.se/storskogen/"><div class="bildProjekt" id="storSkogen"></div></a>
+                            <p id="storSkogenText"></p>
+                        </div>
+                    
+                          
                     </div>
 
 
         <div id="footer">
             <div class="kontaktUppgifter">
                 <p>Jenny Jäderborn</p>
-                <p>jennyjaderborn@medieinstitutet.se</p>
+                <p>jenny.jaderborn@medieinstitutet.se</p>
                 <p>073 686 93 11</p>
             </div>
+
+            <div class="minalänkar">
 
             <div class="sträck"></div>
 
             <div class="länkar">
-                  <a class="länk" href="#">linkedin<i id="länk1" class="fa fa-linkedin" aria-hidden="true"></i></a>
+                  <a class="länk" target="_blank" href="https://www.linkedin.com/in/jenny-jäderborn-174753145/">linkedin<i id="länk1" class="fa fa-linkedin" aria-hidden="true"></i></a>
                 
             </div>
 
@@ -126,8 +149,10 @@
 
             <div class="länkar">
                   
-                    <a class="länk" href="#">github<i id="länk2" class="fa fa-github" aria-hidden="true"></i></a>
+                    <a class="länk" target="_blank" href="https://github.com/jennyjaderborn">github<i id="länk2" class="fa fa-github" aria-hidden="true"></i></a>
                 </div>
+
+            </div>
 
 
         </div>
